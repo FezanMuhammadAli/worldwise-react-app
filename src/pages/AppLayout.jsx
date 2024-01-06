@@ -1,20 +1,13 @@
-import { NavLink } from "react-router-dom";
+import SideBar from "../components/SideBar";
+import Map from "../components/Map";
 import styles from "./AppLayout.module.css";
+
 function AppLayout() {
   return (
-    <>
-      <div className={styles.container}>
-        <marquee>I am App!</marquee>
-        <ul>
-          <li>
-            <NavLink to="/" className={styles.link}>
-              HomePage
-            </NavLink>
-          </li>
-        </ul>
-      </div>
-      ;
-    </>
+    <div className={styles.app}>
+      <SideBar />
+      <Map />
+    </div>
   );
 }
 
