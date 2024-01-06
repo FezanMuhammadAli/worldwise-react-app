@@ -1,8 +1,9 @@
-import { Link } from "react-router-dom";
+import PageNav from "../components/PageNav";
 
 function Product() {
   return (
     <>
+      <PageNav />
       <div
         style={{
           fontFamily: "monospace",
@@ -13,9 +14,6 @@ function Product() {
       >
         Product Page
       </div>
-      <Link to="/">HomePage</Link>
-      <br />
-      <Link to="/pricing">Pricing</Link>
     </>
   );
 }

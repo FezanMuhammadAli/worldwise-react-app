@@ -1,8 +1,9 @@
-import { Link } from "react-router-dom";
+import PageNav from "../components/PageNav";
 
 function Homepage() {
   return (
     <>
+      <PageNav />
       <div
         className="slogan"
         style={{
@@ -14,9 +15,6 @@ function Homepage() {
       >
         WorldWise- Yeah We find it
       </div>
-      <Link to="/pricing">Pricing</Link>
-      <br />
-      <Link to="/product">Product</Link>
     </>
   );
 }

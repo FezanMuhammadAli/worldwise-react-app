@@ -1,7 +1,8 @@
-import { Link } from "react-router-dom";
+import PageNav from "../components/PageNav";
 function PageNotFound() {
   return (
     <>
+      <PageNav />
       <div
         style={{
           fontFamily: "monospace",
@@ -12,8 +13,6 @@ function PageNotFound() {
       >
         Not Found :(
       </div>
-
-      <Link to="/">HomePage</Link>
     </>
   );
 }

@@ -1,7 +1,8 @@
-import { Link } from "react-router-dom";
+import PageNav from "../components/PageNav";
 function Pricing() {
   return (
     <>
+      <PageNav />
       <div
         style={{
           fontFamily: "monospace",
@@ -12,9 +13,6 @@ function Pricing() {
       >
         Pricing Page
       </div>
-      <Link to="/">HomePage</Link>
-      <br />
-      <Link to="/product">Product</Link>
     </>
   );
 }
