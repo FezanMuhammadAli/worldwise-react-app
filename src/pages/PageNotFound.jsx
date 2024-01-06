@@ -1,20 +1,7 @@
-import PageNav from "../components/PageNav";
-function PageNotFound() {
+export default function PageNotFound() {
   return (
-    <>
-      <PageNav />
-      <div
-        style={{
-          fontFamily: "monospace",
-          textAlign: "center",
-          fontWeight: "bold",
-          letterSpacing: "2px",
-        }}
-      >
-        Not Found :(
-      </div>
-    </>
+    <div>
+      <h1>Page not found 😢</h1>
+    </div>
   );
 }
-
-export default PageNotFound;
