@@ -1,11 +1,12 @@
 import PageNav from "../components/PageNav";
+import { NavLink } from "react-router-dom";
 
 function Homepage() {
   return (
     <>
       <PageNav />
       <div
-        className="slogan"
+        className="test"
         style={{
           fontFamily: "monospace",
           textAlign: "center",
@@ -15,6 +16,7 @@ function Homepage() {
       >
         WorldWise- Yeah We find it
       </div>
+      <NavLink to="/app">Go to the app</NavLink>
     </>
   );
 }

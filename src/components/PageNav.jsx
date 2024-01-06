@@ -1,16 +1,9 @@
 import { NavLink } from "react-router-dom";
+import styles from "./PageNav.module.css";
 
 function PageNav() {
   return (
-    <ul
-      style={{
-        display: "flex",
-        justifyContent: "space-around",
-        listStyleType: "none",
-        padding: "0",
-        margin: "10px",
-      }}
-    >
+    <ul className={styles.nav}>
       <li>
         <NavLink to="/">Home</NavLink>
       </li>
